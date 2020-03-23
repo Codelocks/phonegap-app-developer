@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{69f02a0c-cb36-4721-97de-108cce0bc050}</ProjectGuid>
+        <ProjectHome>.</ProjectHome>
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile />
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="google-services.json" />
+        <Content Include="package-lock.json" />
+        <Content Include="package.json" />
+        <Content Include="CHANGELOG.md" />
+        <Content Include="CONTRIBUTING.md" />
+        <Content Include="README.md" />
+        <Content Include="config.xml" />
+        <Content Include="www\index.html" />
+        <Content Include="resources\icon\icon-512.png" />
+        <Content Include="resources\icon\icon.svg" />
+        <Content Include="resources\script\add-hockeyapp.js" />
+        <Content Include="resources\script\add-version.js" />
+        <Content Include="resources\script\after-test-runner.js" />
+        <Content Include="resources\script\before-test-runner.js" />
+        <Content Include="resources\script\clean.js" />
+        <Content Include="resources\script\compile-less.js" />
+        <Content Include="resources\script\copy-android-push-icon.js" />
+        <Content Include="resources\script\hockey-app.js" />
+        <Content Include="resources\script\remove-hockeyapp.js" />
+        <Content Include="resources\script\remove-version.js" />
+        <Content Include="resources\script\restore-config.js" />
+        <Content Include="resources\script\setup-ad-hoc.js" />
+        <Content Include="resources\script\setup-directories.js" />
+        <Content Include="resources\icon\android\icon-36.png" />
+        <Content Include="resources\icon\android\icon-48.png" />
+        <Content Include="resources\icon\android\icon-512.png" />
+        <Content Include="resources\icon\android\icon-72.png" />
+        <Content Include="resources\icon\android\icon-96.png" />
+        <Content Include="resources\icon\android\pushicon.png" />
+        <Content Include="resources\icon\android\README.md" />
+        <Content Include="resources\icon\ios\icon-1024.png" />
+        <Content Include="resources\icon\ios\icon-40.png" />
+        <Content Include="resources\icon\ios\icon-40@2x.png" />
+        <Content Include="resources\icon\ios\icon-40@3x.png" />
+        <Content Include="resources\icon\ios\icon-50.png" />
+        <Content Include="resources\icon\ios\icon-50@2x.png" />
+        <Content Include="resources\icon\ios\icon-60.png" />
+        <Content Include="resources\icon\ios\icon-60@2x.png" />
+        <Content Include="resources\icon\ios\icon-60@3x.png" />
+        <Content Include="resources\icon\ios\icon-72.png" />
+        <Content Include="resources\icon\ios\icon-72@2x.png" />
+        <Content Include="resources\icon\ios\icon-76.png" />
+        <Content Include="resources\icon\ios\icon-76@2x.png" />
+        <Content Include="resources\icon\ios\icon-83.5@2x.png" />
+        <Content Include="resources\icon\ios\icon-small.png" />
+        <Content Include="resources\icon\ios\icon-small@2x.png" />
+        <Content Include="resources\icon\ios\icon-small@3x.png" />
+        <Content Include="resources\icon\ios\icon.png" />
+        <Content Include="resources\icon\ios\icon@2x.png" />
+        <Content Include="resources\screenshot\android\phone-home.png" />
+        <Content Include="resources\screenshot\android\phone-opening.png" />
+        <Content Include="resources\screenshot\android\tablet-10-home.png" />
+        <Content Include="resources\screenshot\android\tablet-10-opening.png" />
+        <Content Include="resources\screenshot\android\tablet-7-home.png" />
+        <Content Include="resources\screenshot\android\tablet-7-opening.png" />
+        <Content Include="resources\screenshot\ios\ipad-129inch-home.png" />
+        <Content Include="resources\screenshot\ios\ipad-129inch-opening.png" />
+        <Content Include="resources\screenshot\ios\ipad-retina-home.png" />
+        <Content Include="resources\screenshot\ios\ipad-retina-opening.png" />
+        <Content Include="resources\screenshot\ios\iphone-3inch-home.png" />
+        <Content Include="resources\screenshot\ios\iphone-3inch-opening.png" />
+        <Content Include="resources\screenshot\ios\iphone-47inch-home.png" />
+        <Content Include="resources\screenshot\ios\iphone-47inch-opening.png" />
+        <Content Include="resources\screenshot\ios\iphone-4inch-home.png" />
+        <Content Include="resources\screenshot\ios\iphone-4inch-opening.png" />
+        <Content Include="resources\screenshot\ios\iphone-55inch-home.png" />
+        <Content Include="resources\screenshot\ios\iphone-55inch-opening.png" />
+        <Content Include="resources\splash\ios\Default-568h@2x~iphone.png" />
+        <Content Include="resources\splash\ios\Default-667h.png" />
+        <Content Include="resources\splash\ios\Default-736h.png" />
+        <Content Include="resources\splash\ios\Default-Landscape-736h.png" />
+        <Content Include="resources\splash\ios\Default-Landscape@2x~ipad.png" />
+        <Content Include="resources\splash\ios\Default-Landscape~ipad.png" />
+        <Content Include="resources\splash\ios\Default-Portrait@2x~ipad.png" />
+        <Content Include="resources\splash\ios\Default-Portrait~ipad.png" />
+        <Content Include="resources\splash\ios\Default@2x~iphone.png" />
+        <Content Include="resources\splash\ios\Default~iphone.png" />
+        <Content Include="resources\store\android\feature-graphic.png" />
+        <Content Include="resources\store\android\promo-graphic.png" />
+        <Content Include="tests\browser\index.spec.js" />
+        <Content Include="tests\www\index.html" />
+        <Content Include="tests\www\master.css" />
+        <Content Include="tests\www\CONTRIBUTING.md" />
+        <Content Include="tests\www\README.md" />
+        <Content Include="tests\www\config.xml" />
+        <Content Include="tests\www\cordova-incl.js" />
+        <Content Include="tests\www\main.js" />
+        <Content Include="tests\www\accelerometer\index.html" />
+        <Content Include="tests\www\accelerometer\index.js" />
+        <Content Include="tests\www\audio\index.html" />
+        <Content Include="tests\www\audio\index.js" />
+        <Content Include="tests\www\autotest\index.html" />
+        <Content Include="tests\www\autotest\jasmine.css" />
+        <Content Include="tests\www\autotest\index.js" />
+        <Content Include="tests\www\autotest\jasmine.js" />
+        <Content Include="tests\www\autotest\test-runner.js" />
+        <Content Include="tests\www\battery\index.html" />
+        <Content Include="tests\www\battery\index.js" />
+        <Content Include="tests\www\benchmarks\arraybuffer.html" />
+        <Content Include="tests\www\benchmarks\autobench.html" />
+        <Content Include="tests\www\benchmarks\exec.html" />
+        <Content Include="tests\www\benchmarks\index.html" />
+        <Content Include="tests\www\benchmarks\setImmediate.js" />
+        <Content Include="tests\www\benchmarks\uubench.js" />
+        <Content Include="tests\www\bluetooth-low-energy\index.html" />
+        <Content Include="tests\www\bluetooth-low-energy\index.js" />
+        <Content Include="tests\www\camera\index.html" />
+        <Content Include="tests\www\camera\index.js" />
+        <Content Include="tests\www\capture\index.html" />
+        <Content Include="tests\www\capture\index.js" />
+        <Content Include="tests\www\compass\index.html" />
+        <Content Include="tests\www\compass\index.js" />
+        <Content Include="tests\www\contacts\index.html" />
+        <Content Include="tests\www\contacts\index.js" />
+        <Content Include="tests\www\cordova-plugin-echo\README.md" />
+        <Content Include="tests\www\cordova-plugin-echo\plugin.xml" />
+        <Content Include="tests\www\cordova-plugin-whitelist\README.md" />
+        <Content Include="tests\www\cordova-plugin-whitelist\plugin.xml" />
+        <Content Include="tests\www\createmobilespec\package.json" />
+        <Content Include="tests\www\createmobilespec\README.md" />
+        <Content Include="tests\www\createmobilespec\createmobilespec.js" />
+        <Content Include="tests\www\dependencies-plugin\plugin.xml" />
+        <Content Include="tests\www\events\index.html" />
+        <Content Include="tests\www\events\index.js" />
+        <Content Include="tests\www\file\index.html" />
+        <Content Include="tests\www\file\index.js" />
+        <Content Include="tests\www\inappbrowser\index.html" />
+        <Content Include="tests\www\inappbrowser\inject.html" />
+        <Content Include="tests\www\inappbrowser\local.html" />
+        <Content Include="tests\www\inappbrowser\video.html" />
+        <Content Include="tests\www\inappbrowser\inject.css" />
+        <Content Include="tests\www\inappbrowser\index.js" />
+        <Content Include="tests\www\inappbrowser\inject.js" />
+        <Content Include="tests\www\keyboard\index.html" />
+        <Content Include="tests\www\keyboard\index.js" />
+        <Content Include="tests\www\keyboard\window-onerror.js" />
+        <Content Include="tests\www\lazyloadjs\index.html" />
+        <Content Include="tests\www\lazyloadjs\do-not-write-cordova-script.js" />
+        <Content Include="tests\www\lazyloadjs\index.js" />
+        <Content Include="tests\www\location\index.html" />
+        <Content Include="tests\www\location\index.js" />
+        <Content Include="tests\www\misc\index.html" />
+        <Content Include="tests\www\misc\page2.html" />
+        <Content Include="tests\www\misc\page3.html" />
+        <Content Include="tests\www\misc\index.js" />
+        <Content Include="tests\www\misc\page2.js" />
+        <Content Include="tests\www\misc\page3A.js" />
+        <Content Include="tests\www\network\index.html" />
+        <Content Include="tests\www\network\index.js" />
+        <Content Include="tests\www\notification\index.html" />
+        <Content Include="tests\www\notification\index.js" />
+        <Content Include="tests\www\splashscreen\index.html" />
+        <Content Include="tests\www\sql\index.html" />
+        <Content Include="tests\www\sql\index.js" />
+        <Content Include="tests\www\statusbar\index.html" />
+        <Content Include="tests\www\storage\index.html" />
+        <Content Include="tests\www\storage\index.js" />
+        <Content Include="tests\www\vibration\index.html" />
+        <Content Include="tests\www\vibration\index.js" />
+        <Content Include="tests\www\autotest\html\HtmlReporter.js" />
+        <Content Include="tests\www\autotest\html\HtmlReporterHelpers.js" />
+        <Content Include="tests\www\autotest\html\ReporterView.js" />
+        <Content Include="tests\www\autotest\html\SpecView.js" />
+        <Content Include="tests\www\autotest\html\SuiteView.js" />
+        <Content Include="tests\www\autotest\html\TrivialReporter.js" />
+        <Content Include="tests\www\autotest\pages\accelerometer.html" />
+        <Content Include="tests\www\autotest\pages\all.html" />
+        <Content Include="tests\www\autotest\pages\battery.html" />
+        <Content Include="tests\www\autotest\pages\bluetooth-low-energy.html" />
+        <Content Include="tests\www\autotest\pages\bridge.html" />
+        <Content Include="tests\www\autotest\pages\camera.html" />
+        <Content Include="tests\www\autotest\pages\capture.html" />
+        <Content Include="tests\www\autotest\pages\compass.html" />
+        <Content Include="tests\www\autotest\pages\contacts.html" />
+        <Content Include="tests\www\autotest\pages\datauri.html" />
+        <Content Include="tests\www\autotest\pages\device.html" />
+        <Content Include="tests\www\autotest\pages\filetransfer.html" />
+        <Content Include="tests\www\autotest\pages\file.html" />
+        <Content Include="tests\www\autotest\pages\geolocation.html" />
+        <Content Include="tests\www\autotest\pages\globalization.html" />
+        <Content Include="tests\www\autotest\pages\localXHR.html" />
+        <Content Include="tests\www\autotest\pages\media.html" />
+        <Content Include="tests\www\autotest\pages\network.html" />
+        <Content Include="tests\www\autotest\pages\notification.html" />
+        <Content Include="tests\www\autotest\pages\platform.html" />
+        <Content Include="tests\www\autotest\pages\splashscreen.html" />
+        <Content Include="tests\www\autotest\pages\storage.html" />
+        <Content Include="tests\www\autotest\pages\vibration.html" />
+        <Content Include="tests\www\autotest\pages\whitelist.html" />
+        <Content Include="tests\www\autotest\pages\all.js" />
+        <Content Include="tests\www\autotest\pages\file.js" />
+        <Content Include="tests\www\autotest\pages\run-tests.js" />
+        <Content Include="tests\www\autotest\tests\accelerometer.tests.js" />
+        <Content Include="tests\www\autotest\tests\battery.tests.js" />
+        <Content Include="tests\www\autotest\tests\bluetooth-low-energy.tests.js" />
+        <Content Include="tests\www\autotest\tests\bridge.tests.js" />
+        <Content Include="tests\www\autotest\tests\camera.tests.js" />
+        <Content Include="tests\www\autotest\tests\capture.tests.js" />
+        <Content Include="tests\www\autotest\tests\compass.tests.js" />
+        <Content Include="tests\www\autotest\tests\contacts.tests.js" />
+        <Content Include="tests\www\autotest\tests\datauri.tests.js" />
+        <Content Include="tests\www\autotest\tests\device.tests.js" />
+        <Content Include="tests\www\autotest\tests\file.tests.js" />
+        <Content Include="tests\www\autotest\tests\filetransfer.tests.js" />
+        <Content Include="tests\www\autotest\tests\geolocation.tests.js" />
+        <Content Include="tests\www\autotest\tests\globalization.tests.js" />
+        <Content Include="tests\www\autotest\tests\localXHR.tests.js" />
+        <Content Include="tests\www\autotest\tests\media.tests.js" />
+        <Content Include="tests\www\autotest\tests\network.tests.js" />
+        <Content Include="tests\www\autotest\tests\notification.tests.js" />
+        <Content Include="tests\www\autotest\tests\platform.tests.js" />
+        <Content Include="tests\www\autotest\tests\splashscreen.tests.js" />
+        <Content Include="tests\www\autotest\tests\storage.tests.js" />
+        <Content Include="tests\www\autotest\tests\vibration.tests.js" />
+        <Content Include="tests\www\autotest\tests\whitelist.tests.js" />
+        <Content Include="tests\www\cordova-plugin-echo\docs\echo.md" />
+        <Content Include="tests\www\cordova-plugin-echo\www\does-not-run.js" />
+        <Content Include="tests\www\cordova-plugin-echo\www\echo.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\docs\whitelist.md" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\index.html" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\master.css" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\cordova-incl.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\main.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\www\whitelist.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\index.html" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\jasmine.css" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\jasmine.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\test-runner.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\html\HtmlReporter.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\html\HtmlReporterHelpers.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\html\ReporterView.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\html\SpecView.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\html\SuiteView.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\html\TrivialReporter.js" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\pages\whitelist.html" />
+        <Content Include="tests\www\cordova-plugin-whitelist\test\autotest\tests\whitelist.tests.js" />
+        <Content Include="www\css\app.css" />
+        <Content Include="www\css\NOEDIT.md" />
+        <Content Include="www\img\frame.png" />
+        <Content Include="www\img\monitor-alert-wp8.png" />
+        <Content Include="www\img\monitor-wp8.png" />
+        <Content Include="www\img\scanline.png" />
+        <Content Include="www\img\sprite.png" />
+        <Content Include="www\js\analytic.js" />
+        <Content Include="www\js\app.js" />
+        <Content Include="www\js\deploy.js" />
+        <Content Include="www\js\ms-viewport.js" />
+        <Content Include="www\js\nacl-fast.min.js" />
+        <Content Include="www\js\nacl-util.min.js" />
+        <Content Include="www\js\zepto.min.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="phonegap-app-developer" />
+        <Folder Include="resources" />
+        <Folder Include="resources\buildkite" />
+        <Folder Include="resources\circle-ci" />
+        <Folder Include="resources\circle-ci\android" />
+        <Folder Include="resources\icon" />
+        <Folder Include="resources\icon\android" />
+        <Folder Include="resources\icon\ios" />
+        <Folder Include="resources\less" />
+        <Folder Include="resources\screenshot" />
+        <Folder Include="resources\screenshot\android" />
+        <Folder Include="resources\screenshot\ios" />
+        <Folder Include="resources\script" />
+        <Folder Include="resources\signing" />
+        <Folder Include="resources\splash" />
+        <Folder Include="resources\splash\ios" />
+        <Folder Include="resources\store" />
+        <Folder Include="resources\store\android" />
+        <Folder Include="tests" />
+        <Folder Include="tests\browser" />
+        <Folder Include="tests\www" />
+        <Folder Include="tests\www\accelerometer" />
+        <Folder Include="tests\www\audio" />
+        <Folder Include="tests\www\autotest" />
+        <Folder Include="tests\www\autotest\html" />
+        <Folder Include="tests\www\autotest\pages" />
+        <Folder Include="tests\www\autotest\tests" />
+        <Folder Include="tests\www\battery" />
+        <Folder Include="tests\www\benchmarks" />
+        <Folder Include="tests\www\bluetooth-low-energy" />
+        <Folder Include="tests\www\camera" />
+        <Folder Include="tests\www\capture" />
+        <Folder Include="tests\www\compass" />
+        <Folder Include="tests\www\contacts" />
+        <Folder Include="tests\www\cordova-plugin-echo" />
+        <Folder Include="tests\www\cordova-plugin-echo\docs" />
+        <Folder Include="tests\www\cordova-plugin-echo\src" />
+        <Folder Include="tests\www\cordova-plugin-echo\src\android" />
+        <Folder Include="tests\www\cordova-plugin-echo\src\ios" />
+        <Folder Include="tests\www\cordova-plugin-echo\www" />
+        <Folder Include="tests\www\cordova-plugin-whitelist" />
+        <Folder Include="tests\www\cordova-plugin-whitelist\docs" />
+        <Folder Include="tests\www\cordova-plugin-whitelist\src" />
+        <Folder Include="tests\www\cordova-plugin-whitelist\src\android" />
+        <Folder Include="tests\www\cordova-plugin-whitelist\src\ios" />
+        <Folder Include="tests\www\cordova-plugin-whitelist\test" />
+        <Folder Include="tests\www\cordova-plugin-whitelist\test\autotest" />
+        <Folder Include="tests\www\cordova-plugin-whitelist\test\autotest\html" />
+        <Folder Include="tests\www\cordova-plugin-whitelist\test\autotest\pages" />
+        <Folder Include="tests\www\cordova-plugin-whitelist\test\autotest\tests" />
+        <Folder Include="tests\www\cordova-plugin-whitelist\www" />
+        <Folder Include="tests\www\createmobilespec" />
+        <Folder Include="tests\www\dependencies-plugin" />
+        <Folder Include="tests\www\events" />
+        <Folder Include="tests\www\file" />
+        <Folder Include="tests\www\inappbrowser" />
+        <Folder Include="tests\www\keyboard" />
+        <Folder Include="tests\www\lazyloadjs" />
+        <Folder Include="tests\www\location" />
+        <Folder Include="tests\www\misc" />
+        <Folder Include="tests\www\network" />
+        <Folder Include="tests\www\notification" />
+        <Folder Include="tests\www\splashscreen" />
+        <Folder Include="tests\www\sql" />
+        <Folder Include="tests\www\statusbar" />
+        <Folder Include="tests\www\storage" />
+        <Folder Include="tests\www\tools" />
+        <Folder Include="tests\www\vibration" />
+        <Folder Include="www" />
+        <Folder Include="www\css" />
+        <Folder Include="www\img" />
+        <Folder Include="www\js" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>

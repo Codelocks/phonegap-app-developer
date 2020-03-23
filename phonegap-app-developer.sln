@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "phonegap-app-developer", "phonegap-app-developer.njsproj", "{69F02A0C-CB36-4721-97DE-108CCE0BC050}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69F02A0C-CB36-4721-97DE-108CCE0BC050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F02A0C-CB36-4721-97DE-108CCE0BC050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F02A0C-CB36-4721-97DE-108CCE0BC050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F02A0C-CB36-4721-97DE-108CCE0BC050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FC56B73-3A75-49C2-82E3-C9EC4DBD3D77}
+	EndGlobalSection
+EndGlobal
